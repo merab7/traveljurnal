@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: lightgrey;
+  }
+  
+  .root {
+    background-color: white;
+  }
+  
+  .headermaindiv {
+    display: flex;
+    justify-content: center;
+    width: 66.6667rem; 
+    text-align: center;
+    gap: 0.5rem; 
+    background-color: #f55a5a;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9072rem; 
+    line-height: 1.125rem; 
+    letter-spacing: -0.004688em; 
+    color: #FFFFFF;
+  }
+  
+  .logo {
+    width: 2.5rem; 
+    margin-top: 0.4375rem; 
+  }
+  
+  .articlesection {
+    width: 56.25rem; 
+    padding: 4.375rem; 
+    gap: 1.875rem; 
+  }
+  
+  .articleimgdiv {
+    width: 12.5rem; 
+    height: 15.625rem; 
+  }
+  
+  .articleimg {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .articlediv {
+    display: grid;
+    grid-template: 1fr 30px / 1fr 25.625rem 1fr;
+  }
+  
+  .allthetextdiv {
+    margin-top: 1.875rem; 
+  }
+  
+  .locationandmapurl {
+    display: flex;
+    gap: 2.1875rem;
+  }
+  
+  .fa-solid {
+    width: min-content;
+    color: #f55a5a;
+    margin-top: -0.1875rem;
+  }
+  
+  .locationname {
+    width: min-content;
+    margin-left: -1.75rem; 
+    margin-top: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9375rem; 
+    line-height: 0.75rem; 
+    letter-spacing: 0.017em;
+    color: #2B283A;
+  }
+  
+  .googlemaplink {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9375rem; 
+    line-height: 0.75rem; 
+    text-decoration-line: underline;
+    color: #918E9B;
+  }
+  
+  .title {
+    margin-top: 0.3125rem; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5625rem; 
+    line-height: 1.875rem; 
+    color: #2B283A;
+  }
+
+  .startingenddate {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.9375rem; 
+    line-height: 0.75rem; 
+    color: #2B283A;
+  }
+  
+  .description {
+    margin-top: -0.125rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.9375rem; 
+    line-height: 150%;
+    color: #2B283A;
+  }
+  
